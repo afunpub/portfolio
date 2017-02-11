@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_delrs" value="name:ID;datatype:int,name:Title;datatype:string,name:Student;datatype:string" />
+</info>

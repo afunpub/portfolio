@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>閱讀認證表列印</title>
+<meta name="generator" content="Namo WebEditor v4.0">
+<meta name="author" content="">
+<meta name="namo-theme" content="Library">
+<style><!--
+p { color:rgb(0,0,0); font-family:細明體;}
+h1 { color:rgb(0,64,0); font-size:12pt; font-family:細明體;}
+h2 { color:rgb(128,64,0); font-size:12pt; font-family:細明體;}
+p.namo-list { color:rgb(0,128,0); font-size:12pt; font-family:細明體;}
+p.namo-sublist { color:rgb(128,64,64); font-size:10pt; font-family:細明體;}
+--></style>
+<script language="JavaScript">
+<!--
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName == 'Netscape') ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+function na_preload_img()
+{ 
+  var img_list = na_preload_img.arguments;
+  if (document.preloadlist == null) 
+    document.preloadlist = new Array();
+  var top = document.preloadlist.length;
+  for (var i=0; i < img_list.length; i++) {
+    document.preloadlist[top+i]     = new Image;
+    document.preloadlist[top+i].src = img_list[i+1];
+  } 
+}
+
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName == 'Netscape') ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+// -->
+</script>
+</head>
+<body background="nth_library_bg.gif" bgcolor="#6BE49C" text="#000000" link="blue" vlink="gray" alink="green" OnLoad="na_preload_img(false, 'nav/nav_library_02_tvr.gif', 'nav/nav_library_03_tvr.gif', 'nav/nav_library_04_tvr.gif', 'nav/nav_library_05_tvr.gif', 'nav/nav_library_06_tvr.gif', 'nav/nav_library_07_tvr.gif', 'nav/nav_library_08_tvr.gif');">
+<!--NAMO_NAVBAR_START B H C  -->
+<div align="center">
+<img src="nav/nav_library_01_bhb.gif" name="nav_01_BH0" border="0" class="namo-banner" alt="閱讀認證表列印"></div>
+<!--NAMO_NAVBAR_END-->
+<p align="center">&nbsp;<img src="nth_library_hr.gif" border="0" class="namo-hr"></p>
+<table border="0" width="750" align="center">
+    <tr>
+        <td width="195"><!--NAMO_NAVBAR_START T V    -->
+<div>
+<img src="nav/nav_library_01_tvh.gif" name="nav_01_TV0" border="0" class="namo-hibutton1" alt="閱讀認證表列印"><br>
+<a href="02.htm" 
+onmouseover="na_change_img_src('nav_01_TV1', 'document', 'nav/nav_library_02_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV1', 'document')"><img src="nav/nav_library_02_tv.gif" name="nav_01_TV1" border="0" class="namo-button1" alt="計畫方案"></a><br>
+<a href="03.htm" 
+onmouseover="na_change_img_src('nav_01_TV2', 'document', 'nav/nav_library_03_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV2', 'document')"><img src="nav/nav_library_03_tv.gif" name="nav_01_TV2" border="0" class="namo-button1" alt="好書推薦"></a><br>
+<a href="04.htm" 
+onmouseover="na_change_img_src('nav_01_TV3', 'document', 'nav/nav_library_04_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV3', 'document')"><img src="nav/nav_library_04_tv.gif" name="nav_01_TV3" border="0" class="namo-button1" alt="閱讀教學主題工作坊"></a><br>
+<a href="05.php" 
+onmouseover="na_change_img_src('nav_01_TV4', 'document', 'nav/nav_library_05_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV4', 'document')"><img src="nav/nav_library_05_tv.gif" name="nav_01_TV4" border="0" class="namo-button1" alt="兒童作品集"></a><br>
+<a href="06.htm" 
+onmouseover="na_change_img_src('nav_01_TV5', 'document', 'nav/nav_library_06_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV5', 'document')"><img src="nav/nav_library_06_tv.gif" name="nav_01_TV5" border="0" class="namo-button1" alt="主題閱讀教師團隊"></a><br>
+<a href="07.htm" 
+onmouseover="na_change_img_src('nav_01_TV6', 'document', 'nav/nav_library_07_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV6', 'document')"><img src="nav/nav_library_07_tv.gif" name="nav_01_TV6" border="0" class="namo-button1" alt="好站推薦"></a><br>
+<a href="08.htm" 
+onmouseover="na_change_img_src('nav_01_TV7', 'document', 'nav/nav_library_08_tvr.gif', true)" 
+onmouseout="na_restore_img_src('nav_01_TV7', 'document')"><img src="nav/nav_library_08_tv.gif" name="nav_01_TV7" border="0" class="namo-button1" alt="主題閱讀排行榜"></a></div>
+            <!--NAMO_NAVBAR_END-->
+            <p>&nbsp;</p>
+        </td>
+        <td width="534" valign="top">
+            <p><img src="nth_library_bullet_l.gif" border="0" class="namo-bullet1">下載「悅讀閱讀認證表」，請點選Word圖示下載。<a href="download/001.doc" title="滑鼠右鍵另存目標"><img src="doc.gif" width="16" height="16" border="0"></a></p>
+            <p><img src="nth_library_bullet_l.gif" border="0" class="namo-bullet1">下載「主題式閱讀認證表」，請點選Word圖示下載。<a href="download/002.doc" title="滑鼠右鍵另存目標"><img src="doc.gif" width="16" height="16" border="0"></a></p>
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

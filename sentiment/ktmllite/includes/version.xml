@@ -1,0 +1,10 @@
+<products>
+    <product name="KTMLLITE" version="3.7.0"> 
+      <feature name="CORE"/>
+      <feature name="CSS"/>
+      <feature name="HTMLDropdown"/>
+      <feature name="LanguagePacks"/>
+      <feature name="PropertyInspectors"/>
+      <feature name="SpellChecker"/>
+    </product>
+</products>

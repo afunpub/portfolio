@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sentimentrs" value="name:ID;datatype:int,name:Date;datatype:datetime,name:Topic;datatype:string,name:Title;datatype:string,name:Content;datatype:blob,name:Name;datatype:string,name:Student;datatype:string,name:Grade;datatype:string,name:Class;datatype:string,name:Teacher;datatype:string" />
+</info>
