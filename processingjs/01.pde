@@ -1,3 +1,8 @@
+void setup()
+{
+  size(400,400);
+  
+}
 fill(0, 0, 0);
 textSize(20);
 textAlign(CENTER);
@@ -36,8 +41,3 @@ mouseClicked=function(){
     }
     
 };
-void setup()
-{
-  size(400,400);
-  
-}
