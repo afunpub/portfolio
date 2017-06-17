@@ -1,8 +1,7 @@
 void setup()
 {
   size(400,400);
-  
-};
+ }
 
 fill(0, 0, 0);
 textSize(20);
