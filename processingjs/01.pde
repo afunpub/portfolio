@@ -9,11 +9,11 @@ textSize(20);
 textAlign(CENTER);
 
 //images of Leafers
-var seed= getImage("avatars/leafers-seed");
-var seedling= getImage("avatars/leafers-seedling");
-var sapling= getImage("avatars/leafers-sapling");
-var tree= getImage("avatars/leafers-tree");
-var ultimate = getImage("avatars/leafers-ultimate");
+var seed= loadImage("avatars/leafers-seed.png");
+var seedling= loadImage("avatars/leafers-seedling.png");
+var sapling= loadImage("avatars/leafers-sapling.png");
+var tree= loadImage("avatars/leafers-tree.png");
+var ultimate = loadImage("avatars/leafers-ultimate.png");
 
 var currentScene;
 
