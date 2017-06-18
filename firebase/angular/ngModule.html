@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="CalApp">
+<head>
+	<meta charset="UTF-8">
+	<title>林志峰 - AngularJS - ngShow</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js"></script>
+	<script src="js/calApp.js"></script>
+</head>
+<body>
+	<form class="span5 form-inline" style="margin-top: 20px" ng-controller="CalCtrl">
+		<input type="number" class="input-small" ng-model="num1">
+		<span>*</span>
+		<input type="number" class="input-small" ng-model="num2" disabled>
+		<span>=</span>	
+		{{num1*num2}}		
+	</form>
+</body>
+</html>

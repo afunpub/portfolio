@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AngularJS-Two way data binding</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  </head>
+  <body>
+  	<div ng-app>
+  		<div>
+  		<h2 style="color: blue;">One way data binding?Cool</h2>
+  			<label>Name:</label>
+  			<input type="text" ng-model="yourName" placeholder="Enter a name here">
+  			<h3>Hello {{yourName}}!</h3>
+  		</div>
+  		<hr>
+  		<div>
+  			<h2 style="color: green;">Two way data binding? Great</h2>
+  			<textarea type="text" ng-model="newName" placeholder="Enter some text to change the value of the underlying"></textarea>
+  			<button ng-click="yourName=newName">
+  				Change the underlying model's value
+  			</button>
+  		</div>
+  	</div>
+  </body>
+</html>

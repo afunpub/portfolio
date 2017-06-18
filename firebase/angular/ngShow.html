@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>林志峰 - AngularJS - ngShow</title>
+	<!--
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
+	-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js"></script>
+</head>
+<body>
+	<div class="well col-md-6" style="margin-top:20px;">
+		<label>Show?
+			<input type="checkbox" ng-model="checked">
+		</label>
+		<hr>
+		<h2 ng-show="checked">男丁格爾</h2>
+	</div>
+</body>
+</html>

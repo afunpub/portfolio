@@ -1,0 +1,18 @@
+列表
+<ul class="nav nav-tabs nav-stacked">
+	<li ng-repeat="friend in friends"><a href="#">{{friend.name}}</a></li>
+</ul>
+<hr>
+表格
+<table class="table table-striped">
+	<tr>
+		<th>#</th>
+		<th>Name</th>
+		<th>Reward</th>
+	</tr>
+	<tr ng-repeat="friend in friends">
+		<td>{{$index+1}}</td>
+		<td>{{friend.name}}</td>
+		<td>{{friend.reward}}</td>
+	</tr>
+</table>

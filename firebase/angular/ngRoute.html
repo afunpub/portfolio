@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="OnePiece">
+<head>
+	<meta charset="UTF-8">
+	<title>AngularJS ngRoute</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+	<script src="js/controller.js"></script>
+</head>
+<body>
+	<div class="row-fluid">
+		
+		<div class="span6" style="margin:20px" ng-controller="OnePieceCtrl">
+			<h2>海賊王</h2>
+			<div ng-view></div>		
+		</div>
+	
+	</div>
+</body>
+</html>
