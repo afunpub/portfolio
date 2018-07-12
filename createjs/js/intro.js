@@ -13,11 +13,11 @@ function init() {
     stage.update();
 }
 function onBallClicked(event) {
-    console.log("你好");
+    console.log("你好嗎?");
     text2();
 }
 function text2() {
-    var text2 = new createjs.Text("Hello~ How are you. ", "30px Arial", "#666");
+    var text2 = new createjs.Text("Hello~ How are you? ", "30px Arial", "#666");
     text2.textBaseline = "alphabetic";
     dimensions = text2.getBounds();
     text2.x = text.x;
