@@ -7,8 +7,8 @@
  * [web-quickstart](https://afunpub.github.io/portfolio/firebase/web-quickstart/)
  * 練習angularJs
   * [view](https://afunpub.github.io/portfolio/angular/view.html)
-  * [ngShow](https://afunpub.github.io/portfolio/angular/ngShow.html)
-  * [ngRoute](https:/afunpub.github.io/portfolio/angular/ngRoute.html)
+   * [ngShow](https://afunpub.github.io/portfolio/angular/ngShow.html)
+    * [ngRoute](https:/afunpub.github.io/portfolio/angular/ngRoute.html)
   * [ngModule](https://afunpub.github.io/portfolio/angular/ngModule.html)
   * [introFirebase](https://afunpub.github.io/portfolio/angular/introFirebase.html)
   * [helloworld](https://afunpub.github.io/portfolio/angular/hello-world.html)
