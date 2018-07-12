@@ -1,8 +1,8 @@
 # My portfolio
 * [閱讀網站](https://afunpub.github.io/portfolio/sentiment "test")
 * 練習processingJs
-*  [Day2](https://afunpub.github.io/portfolio/processingjs/01.html)
-*  [Day1](https://afunpub.github.io/portfolio/processingjs/anything.html)
+    * [Day2](https://afunpub.github.io/portfolio/processingjs/01.html)
+    * [Day1](https://afunpub.github.io/portfolio/processingjs/anything.html)
 * 練習firebase
  * [web-quickstart](https://afunpub.github.io/portfolio/firebase/web-quickstart/)
  * 練習angularJs
