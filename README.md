@@ -1,4 +1,7 @@
 # My portfolio
+* 練習createJs
+  * [Day1](https://afunpub.github.io/portfolio/createjs/intro.html) intro:
+I practiced Stage,Text,textBaseline,getBounds(),addEventListener,addChild and update() syntax.
 * [閱讀網站](https://afunpub.github.io/portfolio/sentiment "test")
 * 練習processingJs
   * [Day2](https://afunpub.github.io/portfolio/processingjs/01.html)

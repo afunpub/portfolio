@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Easel Intro</title>
+<script src="lib/easel.js"></script>
+<script>
+var canvas;
+var stage;
+var text;
+var img;
+var logo;
+
+function init(){
+	canvas = document.getElementById("canvas");
+	stage = new Stage(canvas);
+	text = new Text("Text rendered on the canvas", "36px Arial", "#666");
+	text.x = 100;
+	text.y = 100;
+	
+	img = new Image();
+	img.src = "img/logo.png";
+	img.onload = setImg;
+}
+
+function setImg(event){
+	logo = new Bitmap(img);
+	stage.addChild(logo);
+	logo.x = canvas.width;
+	logo.y = canvas.height/2 - 100;
+	stage.addChild(text);
+	
+	Ticker.addListener(window);
+}
+function tick(){
+	logo.x-=2;
+	stage.update();
+}
+</script>
+</head>
+
+<body onLoad="init();">
+<canvas id="canvas" width="960" height="580"></canvas>
+</body>
+</html>
