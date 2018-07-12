@@ -1,7 +1,6 @@
 var stage;
-
+var text;
 function init() {
-    var text;
     var dimensions;
     stage = new createjs.Stage("canvas");
     text = new createjs.Text("Text rendered on the canvas ", "30px Arial", "#666");
@@ -15,4 +14,14 @@ function init() {
 }
 function onBallClicked(event) {
     console.log("你好");
+    text2();
+}
+function text2() {
+    var text2 = new createjs.Text("Hello~ How are you. ", "30px Arial", "#666");
+    text2.textBaseline = "alphabetic";
+    dimensions = text2.getBounds();
+    text2.x = text.x;
+    text2.y = text.y+40;
+    stage.addChild(text2);
+    stage.update();
 }
