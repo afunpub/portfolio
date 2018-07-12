@@ -13,4 +13,4 @@
   * [introFirebase](https://afunpub.github.io/portfolio/angular/introFirebase.html)
   * [helloworld](https://afunpub.github.io/portfolio/angular/hello-world.html)
   * [day1](https://afunpub.github.io/portfolio/angular/)
- *[society](https://afunpub.github.io/portfolio/firebase/society/public/)
+ * [society](https://afunpub.github.io/portfolio/firebase/society/public/)
